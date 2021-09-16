@@ -4,6 +4,7 @@ import excepcion.ExcepcionDelUsuario;
 import productos.Producto;
 
 public class Usuario {
+	private int id;
 	private String nombre;
 	private String gusto;
 	private int presupuesto;
@@ -19,6 +20,14 @@ public class Usuario {
 		this.gusto = gusto;
 		this.tiempoDisponible = tiempoDisponible;
 		this.presupuesto = presupuesto;
+	}
+	
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String  getId() {
+		return id+nombre;
+				
 	}
 
 	public void Comprar(Producto compra) {

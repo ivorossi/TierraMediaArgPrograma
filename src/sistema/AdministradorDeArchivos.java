@@ -192,7 +192,7 @@ public class AdministradorDeArchivos {
 		PrintWriter archivo;
 		try {
 			archivo = new PrintWriter(
-					new FileWriter("D:\\java eclipse\\TierraMedia\\itinerarios\\" + visitante.getNombre() + ".out"));
+					new FileWriter("D:\\Nueva carpeta\\java eclipse\\TierraMedia\\itinerarios\\" + visitante.getId() + ".out"));
 			archivo.println(visitante);
 			archivo.close();
 		} catch (IOException e) {

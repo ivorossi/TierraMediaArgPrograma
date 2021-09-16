@@ -1,9 +1,10 @@
 ivo tu itinerario: 
 
-Promo de tipo AxB la atraccion: Moria es gratis.
-pack manijas  [ Tipo: aventura,  costo del producto: 33 monedas]
-atracciones inculidas:
-Moria, Mordor, Bosque Negro;
+Atraccion: Mordor  [ Tipo: aventura,  costo del producto: 25 monedas]
+
+Atraccion: Moria  [ Tipo: aventura,  costo del producto: 10 monedas]
+
+Atraccion: Bosque Negro  [ Tipo: aventura,  costo del producto: 8 monedas]
 
 Promo de tipo porcentual tenes un: 10.0% de descuento.
 Pack mañosos  [ Tipo: degustacion,  costo del producto: 34 monedas]
@@ -17,4 +18,4 @@ Minas Tirith, Erebor, Abismo de Helm;
 
 
 Gracias Por tu compra!!
-tu vuelto es: 108 monedas y tu tiempo libre es de: 26.0hs;
+tu vuelto es: 98 monedas y tu tiempo libre es de: 26.0hs;

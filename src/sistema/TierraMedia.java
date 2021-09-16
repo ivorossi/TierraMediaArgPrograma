@@ -20,6 +20,7 @@ public class TierraMedia {
 		Scanner teclado = new Scanner(System.in);
 		String asd;
 		Usuario visitante;
+		int id = 0;
 
 		colaDeVisitantes = archivero.leerArchivoDeUsuario("usuarios.csv");
 		System.out.println("-----------------------------------------");
@@ -30,10 +31,11 @@ public class TierraMedia {
 
 		productosOfertables.addAll(atracciones);
 		productosOfertables.addAll(listaDePromos);
-
+		
 		while (!colaDeVisitantes.isEmpty()) {
-
 			visitante = colaDeVisitantes.poll();
+			visitante.setId(id);
+			id++;
 			OrdenarLista ordenarOfertables = new OrdenarLista(visitante);
 			productosOfertables.sort(ordenarOfertables);
 
